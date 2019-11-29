@@ -1,0 +1,27 @@
+body {
+  background-color: gray;
+}
+
+#board {
+  width: 400px;
+}
+
+.row {
+  position: relative;
+  float: left;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: left;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.beige {
+  background-color: beige;
+}

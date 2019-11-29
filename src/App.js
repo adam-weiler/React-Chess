@@ -1,26 +1,18 @@
+// Vanilla React:
 import React from 'react';
-import logo from './logo.svg';
+
+// Smaller components:
+import Board from './Components/Board/Board.js';
+
+// Call stylesheet last:
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Board />
     </div>
   );
-}
+};
 
 export default App;
